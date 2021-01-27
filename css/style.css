@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* ========================================================== */
+
+/* <br> в HTML использую только для наглядности */
+
+body {
+	color: red;
+}
+/* приоритетнее */
+p {
+	color: rgb(51, 29, 12);
+}
+
+span {
+	color: red;
+	font-size: 20px;
+}
+.one .gold {
+	color: #000;
+}
+.one h2 {
+	color: rgb(229, 255, 0);
+}
+/*приоритетнее*/
+.gold.strong {
+	color: fuchsia;
+}
+
+.old .from {
+	color: rgb(192, 30, 221);
+}
+span.from {
+	color: rgb(196, 166, 32);
+}
+
+
+/* не работает */
+.block {
+	color: green;
+}
+.mail {
+	color: rgb(134, 35, 35);
+}
+
+h1 {
+	color: rgb(128, 34, 34);
+}
+#unik {
+	color: rgb(101, 11, 143);
+}
+/* не работае */
+.text {
+	color: red;
+}
+.dey,
+.over {
+	color: dimgray;
+}
+.veru + * {
+	color: rgb(250, 21, 21);
+}
+.home {
+	color: rgb(40, 41, 95);
+}
+.apple li {
+	color: aqua;
+}
+li.home {
+	color: #000;
+}
+
+.pink {
+	color: royalblue;
+}
+ul {
+	color: darkgreen;
+}
+/* приоритетнее */
+.pink li {
+	color: orangered;
+}
+.pop {
+	color: #000;
+}
+/* приоритетнее */
+.three p {
+	color: springgreen;
+}
+a{
+	color: tomato;
+}
+.three a{
+	color: rgb(216, 22, 22);
+}
